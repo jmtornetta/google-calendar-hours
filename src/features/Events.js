@@ -17,7 +17,7 @@ import { SORT_BY } from '../constants';
 
 import styles from './Events.module.css';
 
-const EXPORT_DATE_FORMAT = 'DD.MM.YYYY HH:mm';
+const EXPORT_DATE_FORMAT = 'MM.DD.YYYY';
 
 const sortByHours = ({ hours: hoursA }, { hours: hoursB }) => {
   if (hoursA > hoursB) {
